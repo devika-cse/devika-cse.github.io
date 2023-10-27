@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Devzz Creations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgba(105, 212, 226, 0.998);
+            color: #f2f8f8;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .profile-image {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 100px;
+            border-radius: 50%;
+        }
+        .details {
+            margin-top: 20px;
+        }
+        .gallery {
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+            opacity: 0.7;
+        }
+        .achievements {
+            margin-top: 20px;
+        }
+        .achievement-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+        .achievement-image:hover {
+            transform: scale(1.1);
+            opacity: 0.7;
+        }
+        /* Navigation Tab Styles */
+        .nav {
+            text-align: center;
+        }
+        .nav a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+        .nav a:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Devika k v</h1>
+        <p>Student</p>
+    </header>
+    <div class="container" id="about">
+        <img class="profile-image" src="1.jpeg" alt="Devika">
+    <div class="nav">
+            <a href="#about">About Me</a>
+           
+            <a href="#work">My Work</a>
+
+            <a href="#details">Contact Details</a>
+    </div>
+
+        <h2>About Me</h2>
+        <p>
+            Hi there! Myself Devika k v. I am a second year computer science student.<br>
+            Say hi to me on my LinkedIn
+            <a rel="sponsored" href="https://www.linkedin.com/in/devikakv-a72356196" target="_blank">devika20</a>.
+        </p>
+    </div>
+   
+    <div class="container" id="work">
+        <h2>My Work</h2>
+        <p>
+            -project on digital calculator<br>
+            -cafe menu <br>
+            -student portfolio creation
+        </p>
+        <div class="gallery">
+            <div class="gallery-container">
+                <img src="project1.jpg" alt="Project 1">
+                <img src="project2.jpg" alt="Project 2">
+                <img src="project3.jpg" alt="Project 3">
+            </div>
+        </div>
+    </div>
+   
+    <div class="container" id="details">
+        <h2>Contact Details</h2>
+        <p>
+            Email: devikakv11@gmail.com<br>
+            instagram: <a href="https://www.instagram.com/guardian._.jin/">devuuh</a>
+        </p>
+        <p>
+            Address: Kundoly house , s n park , p o poothole , Thrissur <br>
+            Phone: (+91)79072723537
+            <br>
+        </p>
+    </div>
+</body>
+</html>
